@@ -1,11 +1,10 @@
-package com.nelioalves.workshopmongo.config.dto;
+package com.nelioalves.workshopmongo.dto;
 
 import java.io.Serializable;
 
 import com.nelioalves.workshopmongo.domain.User;
 
 public class UserDTO implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	private String id;
@@ -44,5 +43,4 @@ public class UserDTO implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
 }
